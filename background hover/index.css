@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.box{
+    background: blueviolet;
+}
+.background{
+   display: flex;
+   flex-wrap: wrap;
+   height: 100vh;
+   width: 70%;
+   overflow: hidden;
+   box-sizing: border-box;
+   margin: auto;
+   opacity: 8;
+}
+span{
+    width: 20px;
+    height:20px;
+    background: #00ff0a;
+    display: block;
+    margin:10px;
+    position: relative;
+    z-index: 1;
+    border-radius: 50%;
+    position: relative;
+}
+span::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #00ff0a;
+    transform: scale(0.1);
+    box-shadow: 0 0 10px #00ff0a,
+                0 0 20px #00ff0a,
+                0 0 40px #00ff0a,
+                0 0 60px #00ff0a,
+                0 0 80px #00ff0a,
+                0 0 100px #00ff0a;
+    pointer-events: none;
+    transition: 3s;
+    border-radius: 50%;
+}
+span:hover::after{
+    transform: scale(4);
+    transition: 0s;
+}
+
+.content{
+    position: absolute;
+    top: 0;
+    left: 14%;
+    /* transform: translateX(-52%); */
+    height: 100vh;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: rgba(0, 0, 139, 0.397);
+    box-sizing: border-box;
+    overflow: hidden;
+    /* z-index: 2; */
+}
+/* .contentWrap{
+    z-index: 999;
+    position: relative;
+} */
+.contentWrap h1{
+    font-size: 40px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0;
+    z-index: 999;
+    position: relative;
+    display: inline;
+}
+.contentWrap p{
+    font-size: 17px;
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 30px;
+    z-index: 2;
+    background: rgba(0, 0, 139, 0.397);
+    position: relative;
+    display: block;
+}
+.contentWrap .myBtn{
+    font-size: 20px;
+    font-weight: 800;
+    color:darkblue;
+    background: #fff;
+    border-color: gold;
+    border-style: solid;
+    border-width: 2px;
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    z-index: 2;
+    position: relative;
+}

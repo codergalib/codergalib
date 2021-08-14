@@ -1,0 +1,124 @@
+@media(max-width:1295px){
+
+    .earth-width {
+        padding-left: 35px;
+        padding-right: 35px;
+        box-sizing: border-box;
+        width: 100%;
+        max-width: 100%;
+    }
+    .header-hover ul li a {
+        padding: 0 13px;
+        font-size: 18px;
+        line-height: 48px;
+
+    }
+    .header-section {
+        padding: 12px 0;
+    }
+    .header-logo img {
+        width: 48px;
+    }
+    .header-logo span {
+        font-size: 28px;
+        line-height: 49px;
+    }
+    .header-hover {
+        width: 38%;
+    }
+    .header-btn a {
+        font-size: 19px;
+        padding: 6px 27px;
+    }
+    .banner {
+        margin-top: 78px;
+        padding: 145px 0;
+    }
+    .banner-product h3 {
+        font-size: 23px;
+        font-weight: 414;
+    }
+    .banner-product h1 {
+        font-size: 57px;
+        line-height: 85px;
+    }
+    .banner-product a {
+        font-size: 24px;
+        width: 200px;
+        height: 74px;
+    }
+    .banner-bottom .text {
+        width: 99%;
+    }
+    .banner-bottom .text h2 {
+        font-size: 28px;
+        font-weight: 500;
+    }
+    .banner-bottom .video {
+        width: 100%;
+    }
+    .banner-bottom .video iframe {
+        width: 100%;
+    }
+    .service-width h2 {
+        font-size: 41px;
+        font-weight: 600;
+    }
+    .service-width p {
+        font-size: 28px;
+        font-weight: 400;
+    }
+    .servicer {
+        width: 48%;
+        margin-right: 2%;
+    }
+    .s-p-text h2 {
+        font-size: 43px;
+        margin-bottom: 21px;
+    }
+    .s-p-text p {
+        font-size: 21px;
+        margin-bottom: 48px;
+        font-weight: 500;
+    }
+    .facer-box {
+        width: 48%;
+
+    }
+    .loginner-text h3 {
+        font-size: 26px;
+        font-weight: 500;
+        margin-bottom: 12px;
+    }
+    .b-s-box {
+        padding: 226px;
+    }
+}
+
+
+
+
+
+@media(max-width:1180px){
+    .header-logo {
+        width: 100%;
+        text-align: center;
+    }
+    .header-logo img {
+        width: 56px;
+        position: relative;
+        top: 0;
+        right: -412px;
+    }
+    .header-btn {
+        width: 149px;
+        position: relative;
+        top: 0;
+        left: 940px;
+    }
+    .header-hover ul {
+        display: none;
+    }
+}
+@media(){}
+@media(){}
